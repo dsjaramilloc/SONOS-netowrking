@@ -1,0 +1,34 @@
+SONOS FACTS/TIPS:-
+-SONOS devices need to be connected to the same network to work
+-Cant be connected to phone data service
+-Some, not all, SONOS devices can be connected thru Bluetooth
+-Sonos devices do not work with repetidores
+-Sonos usa multicast: Multicast needs to be enabled on the network for Sonos devices to function properly.
+-QoS (Quality of service) shold be off for SONOS
+-SONOS devices do not support beamforming, that means the router acts like a directional antenna
+SONOS devices do not suppotr band steering
+<!-- todo airtime fairness feature should be disabled -->
+<!-- ! Smart connect / Smart steering / Band Steering should be off -->
+<!-- -UPnP needs to be enable for SONOS devices to work properly -->
+<!-- ?IGMP Proxy OFF and IGMP Snooping ON -->
+-SONOS do not support VPNs
+-SONOS do not support guest network
+-SONOS DEVICES can only be connected to these network addresses:
+---------------PRIVATE PREFIXES (used para LAN)----------------------------
+-192.168.0.0 
+-10.0.0.0/8
+-172.16.0.0/12
+---------------------------------------------------------------------------
+IP SUBNET CALCULATOR 
+----------------------------------------------------------------------------
+SSID: Network/WiFi name, your wifi name should be visible for SONOS devices
+------------------------------------------------------------------------------
+
+TROUBLESHOOTING TIPS
+
+<!--! -Just because a setup is unsupported doesn’t mean Sonos won’t work. It might work, but it’s not guaranteed and can lead to connectivity issues -->
+
+-Is the default gateway working properly? can the de devices comunicate with the router? 
+
+-Router ports should be open to work, they should not be blocked
+
